@@ -1,5 +1,0 @@
-[
-  { "id": "b001", "name": "[Project name 1]", "summary": "[One line: what it does]", "tags": ["[Tech]", "[Tech]"], "url": "https://example.com", "preview": null },
-  { "id": "b002", "name": "[Project name 2]", "summary": "[One line: what it does]", "tags": ["[Tech]"], "url": "https://example.com", "preview": null },
-  { "id": "b003", "name": "[Project name 3]", "summary": "[One line: what it does]", "tags": ["[Tech]", "[Tech]"], "url": "https://example.com", "preview": null }
-]
