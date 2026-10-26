@@ -1,0 +1,36 @@
+{
+  "start": "welcome",
+  "nodes": {
+    "welcome": {
+      "messages": ["Hello! Thank you for stopping by my portfolio.", "Pick a question below and I'll answer it."],
+      "replies": [
+        { "label": "What have you built?", "next": "built" },
+        { "label": "Which competitions did you join?", "next": "competitions" },
+        { "label": "How can I reach you?", "next": "contact" }
+      ]
+    },
+    "built": {
+      "messages": ["[One or two lines about the projects you've built.]"],
+      "openApp": "browser",
+      "replies": [{ "label": "Ask something else", "next": "menu" }]
+    },
+    "competitions": {
+      "messages": ["[One or two lines about your competitions and results.]"],
+      "openApp": "competition",
+      "replies": [{ "label": "Ask something else", "next": "menu" }]
+    },
+    "contact": {
+      "messages": ["The Phone app has my email and number. I usually reply within [time]."],
+      "openApp": "phone",
+      "replies": [{ "label": "Ask something else", "next": "menu" }]
+    },
+    "menu": {
+      "messages": ["Sure, what else would you like to know?"],
+      "replies": [
+        { "label": "What have you built?", "next": "built" },
+        { "label": "Which competitions did you join?", "next": "competitions" },
+        { "label": "How can I reach you?", "next": "contact" }
+      ]
+    }
+  }
+}

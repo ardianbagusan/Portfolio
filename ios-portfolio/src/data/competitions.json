@@ -1,0 +1,33 @@
+[
+  {
+    "id": "c001",
+    "title": "[Competition name 1]",
+    "meta": "[Year] · [Your role]",
+    "badge": "[Result]",
+    "cover": null,
+    "keyPoints": ["[Key point 1: what you did]", "[Key point 2: what you learned or built]", "[Key point 3: the outcome]"],
+    "proof": [
+      { "type": "photo", "src": null, "caption": "[Proof photo caption]" },
+      { "type": "photo", "src": null, "caption": "[Proof photo caption]" },
+      { "type": "link", "label": "[Certificate or announcement link]", "url": "https://example.com" }
+    ]
+  },
+  {
+    "id": "c002",
+    "title": "[Competition name 2]",
+    "meta": "[Year] · [Your role]",
+    "badge": "[Result]",
+    "cover": null,
+    "keyPoints": ["[Key point 1]", "[Key point 2]", "[Key point 3]"],
+    "proof": [{ "type": "photo", "src": null, "caption": "[Proof photo caption]" }]
+  },
+  {
+    "id": "c003",
+    "title": "[Competition name 3]",
+    "meta": "[Year] · [Your role]",
+    "badge": "[Result]",
+    "cover": null,
+    "keyPoints": ["[Key point 1]", "[Key point 2]"],
+    "proof": []
+  }
+]
