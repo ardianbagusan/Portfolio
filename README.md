@@ -1,4 +1,4 @@
-# iOS-style portfolio
+# iOS-style portfolio 
 
 A portfolio built like a phone: unlock it, swipe up, and open apps for photos,
 competitions, work, contact, projects and a scripted chat.
